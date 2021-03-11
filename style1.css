@@ -1,0 +1,212 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width:100%;
+    max-width: 1920px;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .container.boxed{
+        max-width: 1800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+.img_responsive{
+    width: 100%;
+}
+
+.row{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+    .row-center{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+.col-data-margin{
+    margin: 1em 40px;
+}
+
+.col-25{
+    width: 25%;
+    display: flex;
+}
+
+    /* .col-25 div{
+        margin: 1em 40px;
+        background-color: #EAD6BD;
+    } */
+
+.col-33{
+    width: 33.33%;
+    display: flex;
+}
+
+    /* .col-33 div{
+        margin: 1em 40px;
+        background-color: #EAD6BD;
+    } */
+
+.col-100{
+    width: 100%;
+    display: flex;
+}
+
+.datadiv{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 40px 5px 40px 5px;
+}
+
+.text-center{
+    text-align: center;
+} 
+
+
+
+@media only screen and (max-width:420px){
+
+    .col-25{
+        width: 100%;
+    }
+    .col-25 div img{
+        height: auto;
+    }
+    .col-33{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width:420px){
+
+    .col-25{
+        width: 100%;
+    }
+    .col-25 div img{
+        height: auto;
+    }
+    .col-33{
+        width: 100%;
+    }
+    
+
+}
+
+@media only screen and (min-width:768px){
+
+    .col-25{
+        width: 50%;
+    }
+    .col-25 div img{
+        height: auto;
+    }
+    .col-33{
+        width: 50%;
+    }
+
+}
+.navbar div button{
+    display: none;
+}
+
+@media only screen and (min-width:992px){
+
+    .col-25{
+        width: 25%;
+    }
+    .procurement .col-25 div img{
+        height: 220px;
+    }
+    .col-33{
+        width: 33.33%;
+    }
+} 
+
+
+p{
+    font-size: 24px;
+}
+
+
+
+
+
+.procurement .row .col-25 .col-data-margin{
+    background-color: #EAD6BD;
+    color: #F5333F;
+}
+    .procurement .row .col-25 .col-data-margin div{
+        margin: 20px;
+    }
+
+.platform .row .col-33 .col-data-margin{
+    color: white;
+}
+    .platform .row .col-33 .col-data-margin span{
+        font-style: italic;
+    }
+    .platform .row .col-33 .col-data-margin div{
+        margin: 20px;
+        text-align: center;
+    }
+    .platform .row .col-33 .col-data-margin div button{
+        color: white;
+        border: solid white 1px;
+        background: unset !important;
+    }
+    button{
+        padding: 15px 30px 15px 30px;
+        text-align: center;
+        border-radius: 5px;
+        border: none;
+    }
+    .platform .row .col-33 #column1{
+        background-color: #AC306C;
+    }
+    .platform .row .col-33 #column2{
+        background-color: #813B76;
+    }
+    .platform .row .col-33 #column3{
+        background-color: #3B618F;
+    }
+    .platform .row .col-33 #column4{
+        background-color: #4E7D8F;
+    }   
+    .platform .row .col-33 #column5{
+        background-color: #5E904D;
+    }
+
+.network .row .col-100 .col-data-margin div{
+    text-align: center;
+} 
+    .network .row .col-100 .col-data-margin div button, .help .row .col-100 .datadiv button{
+        margin: 30px;
+        background-color: #F5333F;
+        color: white;
+    }
+
+.help, .intelligent{
+    background-color: #BB7726;
+    color: white;
+}
+
+.esm{
+    background-color: #F5333F;
+    color: white;
+}
+
+.footer{
+    background-color: white;
+    color: black;
+}
