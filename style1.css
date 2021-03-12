@@ -15,6 +15,15 @@ body{
         margin-left: auto;
         margin-right: auto;
     }
+.landing{
+    background-image: url('images/images/11.jpeg');
+      height: 100vh; width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
 .img_responsive{
     width: 100%;
 }
@@ -102,9 +111,16 @@ body{
     
 
 }
-
+@media only screen and (max-width:768px){
+    .landing{
+        height: 500px;
+        width: 100%;
+        background-image: url('images/images/12.jpg');
+        background-repeat: no-repeat;
+      background-size: cover;
+    }
+}
 @media only screen and (min-width:768px){
-
     .col-25{
         width: 50%;
     }

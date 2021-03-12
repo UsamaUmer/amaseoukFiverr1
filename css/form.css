@@ -5,7 +5,9 @@
   border-radius: 4px;
   resize: vertical;
 }
-
+#formDiv{
+    width: 70%;
+}
 #formDiv label {
   padding: 12px 12px 12px 0;
   display: inline-block;
@@ -55,4 +57,10 @@
     width: 100%;
     margin-top: 0;
   }
+    #formDiv{
+    width: 100%;
+}
+    #formDiv #buttonSubmit{
+    width: 50%;
+}
 }
