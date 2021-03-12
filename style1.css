@@ -111,9 +111,9 @@ body{
     
 
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:400px){
     .landing{
-        height: 500px;
+        height: 400px;
         width: 100%;
         background-image: url('images/images/12.jpg');
         background-repeat: no-repeat;
