@@ -149,7 +149,9 @@ p{
     .procurement .row .col-25 .col-data-margin div{
         margin: 20px;
     }
-
+.platform .row .col-33 .col-data-margin .img_responsive{
+    border-radius: 10px;
+}
 .platform .row .col-33 .col-data-margin{
     color: white;
 }
@@ -207,6 +209,6 @@ p{
 }
 
 .footer{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }

@@ -122,3 +122,10 @@ body {
     
 }
 
+
+/*Form styling*/
+
+.formDiv div input{
+    width: 100%;
+}
+
